@@ -1,0 +1,10 @@
+ru:
+  answer:
+    name: Давид
+    location: Москва
+    children: 0
+  ask:
+    name: "Как вас зовут?"
+    location: "Где вы живёте?"
+    children: "Сколько у вас детей?"
+    thanks: "Спасибо"

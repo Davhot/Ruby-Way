@@ -1,0 +1,14 @@
+digraph G {
+  at[label="A, T"];
+  af[label="A, F"];
+  bt[label="B, T"];
+  bf[label="B, F"];
+  af -> af [label="T, F"];
+  at -> bt [label="F"];
+  at -> at [label="T"];
+
+  bf -> bt [label="F"];
+  bt -> bt [label="F"];
+  bf -> at [label="T"];
+  bt -> at [label="T"];
+}

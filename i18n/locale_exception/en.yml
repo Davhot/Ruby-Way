@@ -1,0 +1,16 @@
+en:
+  answer:
+    name: David
+    location: Moscow
+    children: 0
+  ask:
+    name: "What is your name?"
+    location: "Where do you live?"
+    children: "How many children do you have?"
+    thanks: "Thank you!"
+  result:
+    lives_in: "%{name} lives in %{location}, and has "
+    children:
+      zero: "no children."
+      one: "a single child."
+      other: "%{count} children."

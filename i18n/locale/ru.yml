@@ -1,0 +1,16 @@
+ru:
+  answer:
+    name: Давид
+    location: Москве
+    children: 0
+  ask:
+    name: "Как вас зовут?"
+    location: "Где вы живёте?"
+    children: "Сколько у вас детей?"
+    thanks: "Спасибо"
+  result:
+    lives_in: "%{name} живёт в %{location}, и при этом "
+    children:
+      zero: "нет детей."
+      one: "есть один ребёнок."
+      other: "есть %{count} детей."
