@@ -65,15 +65,17 @@ def Roman(val)
   Roman.new(val)
 end
 
-# puts Roman(1094)
-# puts Roman(:MXCIV).to_i
-# puts
-#
-# y1 = Roman(:MCMLXVI)
-# y2 = Roman(:MMIX)
-# range = y1..y2 # 1966..2009
-# # так как есть succ
-# range.each{|x| puts x}
-# range.include?()
-puts Roman(gets.chomp).to_i
-# puts Roman(gets.to_i).to_s
+if __FILE__ == $0
+  # puts Roman(1094)
+  # puts Roman(:MXCIV).to_i
+  # puts
+  #
+  # y1 = Roman(:MCMLXVI)
+  # y2 = Roman(:MMIX)
+  # range = y1..y2 # 1966..2009
+  # # так как есть succ
+  # range.each{|x| puts x}
+  # range.include?()
+  puts Roman(gets.chomp).to_i
+  # puts Roman(gets.to_i).to_s
+end

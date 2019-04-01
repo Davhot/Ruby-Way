@@ -1,0 +1,12 @@
+              String: " total gem(s)\n"
+              String: "Util"
+              String: ") among "
+              String: "' ("
+              String: "gunzip"
+              String: "Could not find '"
+              String: "verbose"
+              String: "width"
+              String: "decode"
+              String: "elapsed"
+
+{:TOTAL=>53804, :FREE=>21857, :T_OBJECT=>167, :T_CLASS=>685, :T_MODULE=>42, :T_FLOAT=>4, :T_STRING=>13756, :T_REGEXP=>171, :T_ARRAY=>2736, :T_HASH=>86, :T_STRUCT=>39, :T_BIGNUM=>2, :T_FILE=>52, :T_DATA=>406, :T_MATCH=>72, :T_COMPLEX=>1, :T_SYMBOL=>6, :T_IMEMO=>5041, :T_NODE=>8633, :T_ICLASS=>48}
